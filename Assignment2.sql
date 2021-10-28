@@ -153,17 +153,11 @@ WHERE O.OrderID = tb.OrderID
 ORDER BY OrderDate
 
 --25. Displays pairs of employees who have the same job title.
-SELECT DISTINCT e2.FirstName + ' ' + e2.LastName AS Name1,
+SELECT e2.FirstName + ' ' + e2.LastName AS Name1,
 e1.FirstName + ' ' + e1.LastName AS Name2,
 e1.Title
 FROM Employees e1, Employees e2
-WHERE e1.Title = e2.Title AND e1.EmployeeID != e2.EmployeeID 
-EXCEPT
-(
-	SELECT e2.FirstName + ' ' + e2.LastName AS Name1, e1.FirstName + ' ' + e1.LastName AS Name2, e1.Title
-	FROM Employees e1, Employees e2
-	WHERE e1.Title = e2.Title AND e1.EmployeeID != e2.EmployeeID AND e1.FirstName > e2.FirstName
-)
+WHERE e1.Title = e2.Title AND e1.EmployeeID != e2.EmployeeID AND e1.FirstName > e2.FirstName
 
 --26. Display all the Managers who have more than 2 employees reporting to them.
 SELECT e1.EmployeeID AS ID, 
