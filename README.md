@@ -6,3 +6,6 @@ SQL Assignment 1
 SQL Assignment 2
 ### 10/28 SQL III
 SQL Assignment 3
+### 10/29 SQL IV
+SQL Assignment 4
+Question 5 Screen Shot : ![image](https://user-images.githubusercontent.com/89765880/139485357-29576bfd-3eac-4f2d-ab0d-44f901748f58.png)
