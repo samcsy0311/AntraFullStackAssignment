@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net5.0\02UnderstandingTypes.exe
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net5.0\02UnderstandingTypes.deps.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net5.0\02UnderstandingTypes.runtimeconfig.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net5.0\02UnderstandingTypes.runtimeconfig.dev.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net5.0\02UnderstandingTypes.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net5.0\ref\02UnderstandingTypes.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net5.0\02UnderstandingTypes.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.AssemblyInfo.cs
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\ref\02UnderstandingTypes.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.genruntimeconfig.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 1\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net5.0\02UnderstandingTypes.csproj.AssemblyReference.cache

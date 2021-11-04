@@ -1,0 +1,18 @@
+1.
+String objects are immutable but StringBuilder is the mutable string type.
+
+2.
+Array Class
+
+3.
+Using Array.Sort(), Array.CompareTo(), or iteratively
+
+4.
+Using Count() method
+
+5. 
+No
+
+6.
+The Clone() method returns a new array (a shallow copy) object containing all the elements in the original array. The CopyTo() method copies the elements into another existing array, and we can specify an index to the destination array.
+

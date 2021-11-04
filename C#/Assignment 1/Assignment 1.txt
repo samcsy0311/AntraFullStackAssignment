@@ -1,0 +1,60 @@
+1. 
+telephone #	-> string
+height		-> ushort
+age		-> byte
+gender		-> character
+salary		-> float
+ISBN		-> string
+price		-> float
+shipping weight	-> float
+population	-> ulong
+# of stars	-> ulong
+# of employees	-> ushort
+
+2.
+Value type is stored in stack memory and it holds the value itself, but reference type is stored in heap memory and it holds the memory address. Boxing is turning value type to reference type, while unboxing is the reverted version.
+
+3.
+Unmanaged resource is things that are not directly under the control of the garbage collector. It is something that garbage collector doesn't know how to clean up after it's abandoned.
+
+4. 
+Garbage collector is an automatic memory manager that we don't need to manually release memory. It allocates objects on managed heap efficiently.
+
+
+
+Controlling Flow and Converting Types
+1.
+DivideByZeroException
+
+2.
+Results in positive/negative infinity
+
+3.
+Runtime error
+
+4.
+The first one assigns y to x first, then adds one. The second one and one to y first, then assigns to x
+
+5.
+Break breaks the loop. Continue skips the execution of current iteration. Return exits the entire methods or functions.
+
+6.
+Initialization, setting boundaries, and increment(or decrement)
+
+7.
+= is to assign a value. == is to compare two values.
+
+8.
+Yes
+
+9.
+default
+
+10.
+IEnumerable interface
+
+
+Practice loops and operators
+1. 
+It will be an infinity loop as i only goes from 0 to 255. It will go back to 0 when it goes over 255.
+We can do try and catch.
