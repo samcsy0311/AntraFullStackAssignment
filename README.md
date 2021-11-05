@@ -15,6 +15,8 @@ No assignment
 
 ## C\#
 ### 11/2 C\# 01 & C\# 02
-C\# Assignment 1 and C\# Assignment 2
+C\# Assignment 1 and C\# Assignment 2 (Due 11/4)
 ### 11/3 C\# 03
-C\# Assignemtn 3
+C\# Assignemnt 3 (Due 11/5)
+### 11/4 C\# 04
+C\# Assignment 4 (Due 11/8)
