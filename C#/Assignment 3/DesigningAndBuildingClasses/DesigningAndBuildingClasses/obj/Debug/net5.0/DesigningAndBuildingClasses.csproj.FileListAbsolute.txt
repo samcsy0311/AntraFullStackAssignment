@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\bin\Debug\net5.0\DesigningAndBuildingClasses.exe
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\bin\Debug\net5.0\DesigningAndBuildingClasses.deps.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\bin\Debug\net5.0\DesigningAndBuildingClasses.runtimeconfig.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\bin\Debug\net5.0\DesigningAndBuildingClasses.runtimeconfig.dev.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\bin\Debug\net5.0\DesigningAndBuildingClasses.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\bin\Debug\net5.0\ref\DesigningAndBuildingClasses.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\bin\Debug\net5.0\DesigningAndBuildingClasses.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.AssemblyInfo.cs
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\ref\DesigningAndBuildingClasses.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\DesigningAndBuildingClasses\DesigningAndBuildingClasses\obj\Debug\net5.0\DesigningAndBuildingClasses.genruntimeconfig.cache

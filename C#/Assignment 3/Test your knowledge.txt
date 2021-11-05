@@ -1,0 +1,45 @@
+Test your knowledge
+1. public, private, protected, internal, protected internal, and private protected.
+   Public access modifiers are accessible from everywhere in a project without any restrictions.
+   Private access modifier are accessible only inside a class or a structure.
+   Protected access modifiers are accessible inside the class and in all classes that derive from that class.
+   Internal access is limited exclusively to classes defined within the current project assembly.
+   Protected internal access modifier is a combination of protected and internal. We can access the protected internal member only in the same assembly or in a derived class in other assemblies.
+   Private protected access modifier is a combination of the private and protected. We can access members inside the containing class or in a class that derives from a containing class, but only in the same assembly(project).
+
+2. Static is to declare a static member that cannot be instantiated.
+   Const is a constant that we cannot change the value. By default, it is static.
+   Readonly is the keyword that we can only change the value during runtime or we can assign it at runtime, but only through the non-static constructor.
+   Static Readonly type variable's value can be assigned at runtime or assigned at compile time and changed at runtime. But this variable's value can only be changed in the static constructor. And cannot be changed further. It can change only once at runtime.
+
+3. A constructor is a special member which shares the same name of the class and does not hava a return type. It is used to create an object of the class and initialize class members.
+
+4. The partial keyword indicates that other parts of the class, struct, or interface can be defined in the namespace. It provides a special ability to implement functionality of a single class into multiple files and all these files are combined into a single class file when the application is compiled.
+
+5. A tuple is a data structure that contains a sequence of elements of different data types. It can be used where you want to have a data structure to hold an object with properties, but you don't want to create a separate type for it.
+
+6. Record keyword makes an object immutable and behave like a value type.
+
+7. Overloading is a compile-time polymorphism, and is used in the same class. Overriding is a runtime polymorphism, and is used between base class and derived classes.
+
+8. Properties expose fields. Fields should (almost always) be kept private to a class and accessed via get and set properties. Properties provide a level of abstraction allowing you to change the fields while not affecting the external way they are accessed by the things that use your class. Properties are not required to encapsulate fields, they could do a calculation on other fields, or serve other purposes.
+
+9. Assign a default value for the variable in the method header.
+
+10. Interface is a collection of methods which are by default abstract and public, and will be implemented by class.
+    Abstract class provides a base class to its subclass, while interface defines the behaviors and functionalities that can be implemented by any class. Moreover, one class can only inherit one abstract class, but one class can implement multiple interfaces.
+
+11. Public.
+
+12. T
+13. T
+14. F
+15. F
+16. T
+17. T
+18. T
+19. F (or T if it is also an overriden method)
+20. F
+21. T
+22. F
+23. T

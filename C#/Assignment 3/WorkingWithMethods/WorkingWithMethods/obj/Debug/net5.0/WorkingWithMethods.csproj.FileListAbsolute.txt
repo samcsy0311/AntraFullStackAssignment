@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\bin\Debug\net5.0\WorkingWithMethods.exe
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\bin\Debug\net5.0\WorkingWithMethods.deps.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\bin\Debug\net5.0\WorkingWithMethods.runtimeconfig.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\bin\Debug\net5.0\WorkingWithMethods.runtimeconfig.dev.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\bin\Debug\net5.0\WorkingWithMethods.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\bin\Debug\net5.0\ref\WorkingWithMethods.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\bin\Debug\net5.0\WorkingWithMethods.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.AssemblyInfo.cs
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\ref\WorkingWithMethods.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\C#\Assignment 3\WorkingWithMethods\WorkingWithMethods\obj\Debug\net5.0\WorkingWithMethods.genruntimeconfig.cache
