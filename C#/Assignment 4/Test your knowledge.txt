@@ -1,0 +1,31 @@
+1.
+It allows us to design classes and methods but defer the specification of types until the class/method is declared and called.
+
+2.
+List<string> ls = new List<string>();
+
+3.
+Two.
+
+4. 
+T
+
+5.
+ls.Add(object).
+
+6. 
+ls.Clear() / ls.Remove(object).
+
+7.
+public class [classname]<T> {
+...
+}
+
+8.
+F
+
+9.
+T
+
+10.
+T
