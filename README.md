@@ -33,4 +33,4 @@ No assignment
 
 ## CSS
 ### 11/18 CSS
-[CSS Assignment](https://github.com/samcsy0311/AntraFullStackAssignment/tree/master/CSS)
+[CSS Assignment](https://github.com/samcsy0311/AntraFullStackAssignment/tree/master/CSS) (Due 11/22)
