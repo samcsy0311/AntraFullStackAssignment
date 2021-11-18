@@ -30,3 +30,7 @@ No assignment
 ## HTML
 ### 11/17 HTML
 [HTML Assignment](https://github.com/samcsy0311/AntraFullStackAssignment/tree/master/HTML)
+
+## CSS
+### 11/18 CSS
+[CSS Assignment](https://github.com/samcsy0311/AntraFullStackAssignment/tree/master/CSS)
