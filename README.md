@@ -29,4 +29,4 @@ No assignment
 
 ## HTML
 ### 11/17 HTML
-[HTML_Assignment](https://github.com/samcsy0311/AntraFullStackAssignment/tree/master/HTML_Assignment)
+[HTML Assignment](https://github.com/samcsy0311/AntraFullStackAssignment/tree/master/HTML)
