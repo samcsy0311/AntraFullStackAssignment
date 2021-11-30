@@ -39,3 +39,7 @@ C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\obj\
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\obj\Debug\net5.0\MovieShopMVC.genruntimeconfig.cache
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\obj\Debug\net5.0\MovieShopMVC.csproj.CopyComplete
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\obj\Debug\net5.0\Razor\Views\Home\TopMovies.cshtml.g.cs
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\bin\Debug\net5.0\ApplicationCore.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop\MovieShopMVC\bin\Debug\net5.0\ApplicationCore.pdb
