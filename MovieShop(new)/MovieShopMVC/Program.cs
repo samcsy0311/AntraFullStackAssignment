@@ -1,7 +1,18 @@
+using ApplicationCore.RepositoryInterfaces;
+using ApplicationCore.ServiceInterfaces;
+using Infrastructure.Repositories;
+using Infrastructure.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// Registering your Services/dependencies
 builder.Services.AddControllersWithViews();
+
+//Services Injection
+builder.Services.AddScoped<IMovieService, MovieService>();
+// Repositories Injection
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
 var app = builder.Build();
 

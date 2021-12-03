@@ -1,4 +1,5 @@
 ﻿using ApplicationCore.Models;
+using ApplicationCore.RepositoryInterfaces;
 using ApplicationCore.ServiceInterfaces;
 using Infrastructure.Repositories;
 using System;
@@ -11,13 +12,20 @@ namespace Infrastructure.Services
 {
      public class MovieService : IMovieService
      {
-          private MovieRepository _movieRepository;
-          
-          public MovieService()
-          {
-               _movieRepository = new MovieRepository();
-          }
+          //private MovieRepository _movieRepository;
 
+          //public MovieService()
+          //{
+          //     _movieRepository = new MovieRepository();
+          //}
+          private readonly IMovieRepository _movieRepository;
+
+          //Constructor Injection
+          public MovieService(IMovieRepository movieRepository)
+          {
+               _movieRepository = movieRepository; // can be anything implementing the IMovieRepo
+          }
+          
           public IEnumerable<MovieCardResponseModel> GetHighestGrossingMovies()
           {
                // call my MovieRepository and get the data 

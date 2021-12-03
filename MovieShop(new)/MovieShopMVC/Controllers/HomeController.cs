@@ -1,4 +1,6 @@
-﻿using Infrastructure.Services;
+﻿using ApplicationCore.ServiceInterfaces;
+using Infrastructure.Repositories;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 using MovieShopMVC.Models;
 using System.Diagnostics;
@@ -7,11 +9,13 @@ namespace MovieShopMVC.Controllers
 {
      public class HomeController : Controller
      {
-          private MovieService _movieService;
+          // C# readonly
+          private readonly IMovieService _movieService;
 
-          public HomeController(ILogger<HomeController> logger)
+          // need to tell MVC MovieService class needs to be "injected"
+          public HomeController(IMovieService movieService)      
           {
-               _movieService = new MovieService();
+               _movieService = movieService;
           }
 
           [HttpGet]
