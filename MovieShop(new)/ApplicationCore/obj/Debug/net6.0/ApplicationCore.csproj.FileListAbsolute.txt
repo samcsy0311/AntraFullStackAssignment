@@ -10,3 +10,5 @@ C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\ApplicationC
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
