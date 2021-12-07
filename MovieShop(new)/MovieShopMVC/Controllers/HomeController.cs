@@ -28,6 +28,13 @@ namespace MovieShopMVC.Controllers
                // 1. Pass the models in the view method (Most important)
                // 2. ViewBag
                // 3. ViewData
+
+               // value types we can make nullable by ?
+
+               //string x = null;
+
+               //var leng = x.Length;
+
                return View(movieCards);
           }
 

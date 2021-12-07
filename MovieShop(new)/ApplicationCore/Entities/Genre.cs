@@ -9,5 +9,7 @@ namespace ApplicationCore.Entities
           public int Id { get; set; }
           [MaxLength(24)]
           public string Name { get; set; }
+
+          public List<MovieGenre> MoviesOfGenre { get; set; }
      }
 }
