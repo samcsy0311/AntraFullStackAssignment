@@ -8,6 +8,12 @@ namespace ApplicationCore.Models
 {
      public class MovieDetailsResponseModel
      {
+          public MovieDetailsResponseModel()
+          {
+               Genres = new List<GenreModel>();
+               Trailers = new List<TrailerResponseModel>();
+               Casts = new List<CastResponseModel>();
+          }
           public int Id { get; set; }
           public string? Title { get; set; }
           public string? Overview { get; set; }
@@ -22,7 +28,7 @@ namespace ApplicationCore.Models
           public DateTime? ReleaseDate { get; set; }
           public int? RunTime { get; set; }
           public decimal? Price { get; set; }
-
+          public decimal? Rating { get; set; }
           public List<TrailerResponseModel> Trailers { get; set; }
           public List<GenreModel> Genres { get; set; }
           public List<CastResponseModel> Casts { get; set; }
