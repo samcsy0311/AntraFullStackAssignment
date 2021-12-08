@@ -61,7 +61,8 @@ namespace Infrastructure.Services
                     RunTime = movie.RunTime,
                     BackdropUrl = movie.BackdropUrl,
                     TmdbUrl = movie.TmdbUrl,
-                    ImdbUrl = movie.ImdbUrl
+                    ImdbUrl = movie.ImdbUrl,
+                    Price = movie.Price
 
                };
 

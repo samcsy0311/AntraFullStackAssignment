@@ -38,7 +38,7 @@ namespace Infrastructure.Repositories
 
                if (movieDetails == null) return null;
 
-               var rating = _dbContext.Reviews.Where(m => m.MovieId == id).DefaultIfEmpty()
+               var rating = _dbContext.Reviews.Where(r => r.MovieId == id).DefaultIfEmpty()
                     .Average(r => r == null ? 0 : r.Rating);
                movieDetails.Rating = rating;
                return movieDetails;

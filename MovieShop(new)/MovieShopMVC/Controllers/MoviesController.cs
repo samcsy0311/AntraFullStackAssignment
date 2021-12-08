@@ -1,13 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ApplicationCore.ServiceInterfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MovieShopMVC.Controllers
 {
      public class MoviesController : Controller
      {
-        public IActionResult Details(int id)
+          private readonly IMovieService _movieService;
+
+          public MoviesController(IMovieService movieService)
+          {
+               _movieService = movieService;
+          }
+
+          public IActionResult Details(int id)
           {
                // call the MovieService wuth DI to get the movie details information
-               return View();
+               var movieDetails = _movieService.GetMovieDetailsById(id);
+               return View(movieDetails);
           }
      }
 }
