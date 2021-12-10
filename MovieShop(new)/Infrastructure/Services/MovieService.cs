@@ -62,8 +62,10 @@ namespace Infrastructure.Services
                     BackdropUrl = movie.BackdropUrl,
                     TmdbUrl = movie.TmdbUrl,
                     ImdbUrl = movie.ImdbUrl,
-                    Price = movie.Price
-
+                    Price = movie.Price,
+                    ReleaseDate = movie.ReleaseDate,
+                    Revenue = movie.Revenue,
+                    Budget = movie.Budget
                };
 
                foreach (var movieCast in movie.MoviesCasts)

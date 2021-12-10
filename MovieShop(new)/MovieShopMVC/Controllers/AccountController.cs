@@ -1,13 +1,19 @@
 ﻿using ApplicationCore.Models;
+using ApplicationCore.ServiceInterfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MovieShopMVC.Controllers
 {
      public class AccountController : Controller
      {
-         
-          // account/register
-          [HttpGet]
+        private readonly IAccountService _accountService;
+        public AccountController(IAccountService accountService)
+        {
+               _accountService = accountService;
+        }
+
+        // account/register
+        [HttpGet]
           public IActionResult Register()
           {
                return View();
@@ -16,8 +22,17 @@ namespace MovieShopMVC.Controllers
           [HttpPost]
           public IActionResult Register(UserRegisterRequestModel registerRequestModel)
           {
-               // save the data in database and reutn to login page
-               return View();
+               // we need to send the data to service , which is gonna convert in to User entity and send it to User Repository
+               // save the data in the User table
+
+               var user = _accountService.RegisterUser(registerRequestModel);
+
+               if (user == 0)
+               {
+                    // email already exist
+                    return View();
+               }
+               return RedirectToAction("Login");
           }
 
           [HttpGet]

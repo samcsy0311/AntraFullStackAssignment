@@ -14,9 +14,11 @@ builder.Services.AddControllersWithViews();
 // Services Injection
 builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IGenreService, GenreService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 // Repositories Injection
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // Inject the connection string into the MovieShopDbContext constructor using DbContextOptions
 builder.Services.AddDbContext<MovieShopDbContext>(
@@ -42,6 +44,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Privacy}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
