@@ -20,12 +20,12 @@ namespace MovieShopMVC.Controllers
           }
 
           [HttpPost]
-          public IActionResult Register(UserRegisterRequestModel registerRequestModel)
+          public async Task<IActionResult> Register(UserRegisterRequestModel registerRequestModel)
           {
                // we need to send the data to service , which is gonna convert in to User entity and send it to User Repository
                // save the data in the User table
 
-               var user = _accountService.RegisterUser(registerRequestModel);
+               var user = await _accountService.RegisterUser(registerRequestModel);
 
                if (user == 0)
                {

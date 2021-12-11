@@ -14,10 +14,10 @@ namespace Infrastructure.Services
           {
                _userRepository = userRepository;
           }
-          public int RegisterUser(UserRegisterRequestModel model)
+          public async Task<int> RegisterUser(UserRegisterRequestModel model)
           {
                // make sure the email user entered does not exist in our database
-               var dbUser = _userRepository.GetUserByEmail(model.Email);
+               var dbUser = await _userRepository.GetUserByEmail(model.Email);
                if (dbUser != null)
                {
                     //return 0
@@ -29,7 +29,7 @@ namespace Infrastructure.Services
                var salt = generateSalt();
 
                // hash the password with the salt created above
-               var hashedPassword = getHashedPassword(model.Password, salt);
+               var hashedPassword = GetHashedPassword(model.Password, salt);
 
                var user = new User
                {
@@ -41,16 +41,43 @@ namespace Infrastructure.Services
                     LastName = model.LastName
                };
 
-               var createdUser = _userRepository.Add(user);
+               var createdUser = await _userRepository.Add(user);
                return createdUser.Id;
                // save to the database
                // reutn back
 
           }
 
-          public UserLoginResponseModel ValidateUser(LoginRequestModel model)
+          public async Task<UserLoginResponseModel> ValidateUser(LoginRequestModel model)
           {
-                 throw new NotImplementedException();
+               // check if the hashed password is correct
+               // get the data for that user's email
+               var user = await _userRepository.GetUserByEmail(model.Email);
+               if (user == null)
+               {
+                    return null;
+               }
+
+               // hash the password the user entered with the salt from the database
+
+               var hashedPassword = GetHashedPassword(model.Password, user.Salt);
+
+               // compare the newly created hashpassword with database password
+
+               if (hashedPassword == user.HashedPassword)
+               {
+                    // correct password
+                    var userLoginResponseModel = new UserLoginResponseModel
+                    {
+                         Id = user.Id,
+                         Email = user.Email,
+                         DateOfBirth = user.DateOfBirth,
+                         FirstName = user.FirstName,
+                         LastName = user.LastName
+                    };
+                    return userLoginResponseModel;
+               }
+               return null;
           }
 
           private string generateSalt()
@@ -63,7 +90,7 @@ namespace Infrastructure.Services
                return Convert.ToBase64String(randomBytes);
         }
 
-          private string getHashedPassword(string password, string salt)
+          private string GetHashedPassword(string password, string salt)
         {
                var hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
                                                                     password: password,

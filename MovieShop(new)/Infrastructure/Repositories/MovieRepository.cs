@@ -16,14 +16,14 @@ namespace Infrastructure.Repositories
           {
 
           }
-          
-          public IEnumerable<Movie> Get30HighestGrossingMovie()
+
+          public async Task<IEnumerable<Movie>> Get30HighestGrossingMovies()
           {
                // we need to go to database and get the movies using Dapper or EF Core
                
                //access the dbContext object and dbset of movies object to query the movies table
 
-               var movies = _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(30).ToList();
+               var movies = await _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(30).ToListAsync();
                return movies;
           }
 

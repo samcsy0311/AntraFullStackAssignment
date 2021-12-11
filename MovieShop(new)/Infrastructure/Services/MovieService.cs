@@ -26,10 +26,10 @@ namespace Infrastructure.Services
                _movieRepository = movieRepository; // can be anything implementing the IMovieRepo
           }
 
-          public IEnumerable<MovieCardResponseModel> GetHighestGrossingMovies()
+          public async Task<IEnumerable<MovieCardResponseModel>> GetHighestGrossingMovies()
           {
                // call my MovieRepository and get the data 
-               var movies = _movieRepository.Get30HighestGrossingMovie();
+               var movies = await _movieRepository.Get30HighestGrossingMovies();
 
                // 3rd party Automapper from 
                // manual way

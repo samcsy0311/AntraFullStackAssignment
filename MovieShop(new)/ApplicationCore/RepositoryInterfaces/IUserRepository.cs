@@ -2,8 +2,8 @@
 
 namespace ApplicationCore.RepositoryInterfaces
 {
-    public interface IUserRepository:IRepository<User>
+    public interface IUserRepository : IRepository<User>
     {
-          User GetUserByEmail(string email);
-    }
+          Task<User> GetUserByEmail(string email);
+     }
 }
