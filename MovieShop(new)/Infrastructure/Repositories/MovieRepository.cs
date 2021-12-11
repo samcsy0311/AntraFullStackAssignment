@@ -27,7 +27,7 @@ namespace Infrastructure.Repositories
                return movies;
           }
 
-          public override Movie GetById(int id)
+          public async Task<Movie> GetById(int id)
           {
               // call the Movie dbset and also include the navigation properties such as 
               // Genres, Trailers, cast 
