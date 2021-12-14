@@ -3,6 +3,7 @@ using ApplicationCore.ServiceInterfaces;
 using Infrastructure.data;
 using Infrastructure.Repositories;
 using Infrastructure.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IGenreService, GenreService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IUserService, UserService>();
+
 // Repositories Injection
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<IGenreRepository, GenreRepository>();
@@ -24,6 +27,16 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddDbContext<MovieShopDbContext>(
      options => options.UseSqlServer(builder.Configuration.GetConnectionString("MovieShopDbConnection"))
 );
+
+// tell our asp.net what kind of authentication we are using
+// cookie-based authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+     .AddCookie(option =>
+     {
+          option.Cookie.Name = "MovieShopAuthCookie";
+          option.ExpireTimeSpan = TimeSpan.FromDays(1);
+          option.LoginPath = "/account/login";
+     });
 
 var app = builder.Build();
 
@@ -35,11 +48,13 @@ if (!app.Environment.IsDevelopment())
      app.UseHsts();
 }
 
+// 6 built-in middleware (order matters)
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); // authentication first, then gives role
 app.UseAuthorization();
 
 app.MapControllerRoute(
