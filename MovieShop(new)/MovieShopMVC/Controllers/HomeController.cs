@@ -44,8 +44,8 @@ namespace MovieShopMVC.Controllers
 
                // I/O bound operation => Database calls, File calls, Http Call
                // 10 ms, 100 ms, 1 sec, 10 sec, 
-               // CPU bound operation => Resizing an image, rading pixel image, calucalting Pi number 
-               // calilcating some algorthm, oan interest, 
+               // CPU bound operation => Resizing an image, reading pixel image, calucalting Pi number 
+               // calculating some algorthm, loan interest, 
                // Thread 1 is waiting for the I/O bound operation to finish
                var movieCards = await _movieService.GetHighestGrossingMovies();
 
