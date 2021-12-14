@@ -27,7 +27,6 @@ namespace Infrastructure.Repositories
                return movies;
           }
 
-          // check
           public async override Task<Movie> GetById(int id)
           {
               // call the Movie dbset and also include the navigation properties such as 

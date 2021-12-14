@@ -14,7 +14,7 @@ namespace MovieShopMVC.Controllers
 
         // account/register
         [HttpGet]
-          public IActionResult Register()
+          public async Task<IActionResult> Register()
           {
                return View();
           }
@@ -36,14 +36,30 @@ namespace MovieShopMVC.Controllers
           }
 
           [HttpGet]
-          public IActionResult Login()
+          public async Task<IActionResult> Login()
           {
                return View();
           }
 
           [HttpPost]
-          public IActionResult Login(LoginRequestModel loginRequestModel)
+          public async Task<IActionResult> Login(LoginRequestModel loginRequestModel)
           {
+               var user = await _accountService.ValidateUser(loginRequestModel);
+               if(user == null)
+               {
+                    // hey please check your email
+                    // send message to the view saying please enter correct email/password
+               }
+
+               // we need to create a cookie => will have information Claims (MovieShopAuthCookie)
+               // claims will have (FirstName, LastName, TimeZone)
+               // We usually encrypt the data we store in cookies
+               // Cookie Based Authentication
+               // Cookie will have expiration time
+               // Cookie => Browser 
+               
+               //redirect to homepage
+               //
                return View();
           }
 
