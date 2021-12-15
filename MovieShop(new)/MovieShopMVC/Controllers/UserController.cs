@@ -22,14 +22,18 @@ namespace MovieShopMVC.Controllers
                // go to User Service and call User Repository and get the Movies Purchased by user who logged in
                var userId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
                // pass above user id to service
-               var purchases = _userService.GetUserPurchasedMovies(userId);
+               var purchases = await _userService.GetUserPurchasedMovies(userId);
                return View(purchases);
           }
 
           [HttpGet]
           public async Task<IActionResult> Favorites()
           {
-               return View();
+               // go to User Service and call User Repository and get the Movies Purchased by user who logged in
+               var userId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+               // pass above user id to service
+               var favorites = await _userService.GetUserFavoritedMovies(userId);
+               return View(favorites);
           }
 
           [HttpGet]

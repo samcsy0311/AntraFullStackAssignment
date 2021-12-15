@@ -53,12 +53,6 @@ namespace MovieShopMVC.Controllers
           }
 
           [HttpGet]
-          public async Task<IActionResult> Privacy()
-          {
-               return View();
-          }
-
-          [HttpGet]
           public async Task<IActionResult> TopMovies()
           {
                return View();
