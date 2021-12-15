@@ -39,5 +39,21 @@ namespace Infrastructure.Repositories
                     .ToListAsync();
                return movies;
           }
+
+          public async Task<User> UpdateUser(User user)
+          {
+               var _user = (from u in _dbContext.Users
+                           where u.Id == user.Id
+                           select u).FirstOrDefault();
+               if (user.DateOfBirth != null)
+                    _user.DateOfBirth = user.DateOfBirth;
+               if (user.PhoneNumber != null)
+                    _user.PhoneNumber = user.PhoneNumber;
+               if (user.Email != null)
+                    _user.Email = user.Email;
+               await _dbContext.SaveChangesAsync();
+
+               return _user;
+          }
      }
 }

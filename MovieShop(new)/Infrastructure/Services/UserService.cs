@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Models;
+﻿using ApplicationCore.Entities;
+using ApplicationCore.Models;
 using ApplicationCore.RepositoryInterfaces;
 using ApplicationCore.ServiceInterfaces;
 using System;
@@ -16,17 +17,43 @@ namespace Infrastructure.Services
           {
                _userRepository = userRepository;
           }
-          public Task<bool> EditUserProfile(UserDetailsModel user)
-        {
-            throw new NotImplementedException();
+          public async Task<bool> EditUserProfile(UserDetailsModel user)
+          {
+               var _user = new User
+               {
+                    Id = user.Id,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    Email = user.Email,
+                    PhoneNumber = user.PhoneNumber,
+                    DateOfBirth = user.DateOfBirth
+               };
+               _user = await _userRepository.UpdateUser(_user);
+
+               if (_user == null)
+               {
+                    return false;
+               }
+               return true;
+          }
+
+          public async Task<UserDetailsModel> GetUserDetails(int id)
+          {
+               var user = await _userRepository.GetById(id);
+
+               var userDetails = new UserDetailsModel
+               {
+                    Id = id,
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    DateOfBirth = user.DateOfBirth,
+                    Email = user.Email,
+                    PhoneNumber = user.PhoneNumber
+               };
+               return userDetails;
         }
 
-        public Task<UserDetailsModel> GetUserDetails(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-          public async Task<List<MovieCardResponseModel>> GetUserFavoritedMovies(int id)
+        public async Task<List<MovieCardResponseModel>> GetUserFavoritedMovies(int id)
           {
                var movie = await _userRepository.GetFavoritedMovies(id);
 

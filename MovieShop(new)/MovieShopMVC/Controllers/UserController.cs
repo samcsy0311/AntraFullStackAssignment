@@ -1,4 +1,5 @@
-﻿using ApplicationCore.ServiceInterfaces;
+﻿using ApplicationCore.Models;
+using ApplicationCore.ServiceInterfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
@@ -39,13 +40,25 @@ namespace MovieShopMVC.Controllers
           [HttpGet]
           public async Task<IActionResult> Profile()
           {
-               return View();
+               var userId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+               var user = await _userService.GetUserDetails(userId);
+               return View(user);
           }
 
           [HttpGet]
           public async Task<IActionResult> EditProfile()
           {
                return View();
+          }
+          
+          [HttpPost]
+          public async Task<IActionResult> EditProfile(UserDetailsModel user)
+          {
+               var userId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+               user.Id = userId;
+               await _userService.EditUserProfile(user);
+
+               return RedirectToAction("Profile");
           }
 
      }
