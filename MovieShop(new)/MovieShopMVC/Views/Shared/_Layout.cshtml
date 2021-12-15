@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@inject ApplicationCore.ServiceInterfaces.IGenreService _genreService;
+@{
+    var model = await _genreService.GetAllGenres();
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -32,9 +37,11 @@
                               </a>
                               @*fix here => genres list*@
                               <div class="dropdown-menu">
-                                   <a class="dropdown-item" asp-controller="Genre" asp-action="List" asp-route-id="1">Action</a>
-                                   <a class="dropdown-item" asp-controller="Genre" asp-action="List" asp-route-id="2">Adventure</a>
-                                   <a class="dropdown-item" asp-controller="Genre" asp-action="List" asp-route-id="3">Romantic</a>
+                              @foreach (var genre in @model)
+                              {
+                                   <a class="dropdown-item" asp-controller="Genre" asp-action="List" asp-route-id="@genre.Id">@genre.Name</a>
+
+                              }
                               </div>
                         </li>
                     </ul>
