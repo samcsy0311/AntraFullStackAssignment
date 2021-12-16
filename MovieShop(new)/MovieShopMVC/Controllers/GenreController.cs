@@ -12,12 +12,12 @@ namespace MovieShopMVC.Controllers
                _genreService = genreService;
           }
 
-          [HttpGet]
-          public async Task<IActionResult> Genres()
-          {
-               var genre = await _genreService.GetAllGenres();
-               return View(genre);
-          }
+          //[HttpGet]
+          //public async Task<IActionResult> Genres()
+          //{
+          //     var genre = await _genreService.GetAllGenres();
+          //     return View(genre);
+          //}
 
           [HttpGet]
           public async Task<IActionResult> List(int id)

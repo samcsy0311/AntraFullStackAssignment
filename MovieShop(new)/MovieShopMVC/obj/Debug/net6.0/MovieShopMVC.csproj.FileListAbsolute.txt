@@ -21,10 +21,6 @@ C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.Build.dll
-C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.Build.Tasks.Core.dll
-C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -73,7 +69,6 @@ C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\NuGet.Versioning.dll
-C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -82,7 +77,6 @@ C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Resources.Extensions.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -269,3 +263,20 @@ C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\obj\Debug\net6.0\ref\MovieShopMVC.dll
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\obj\Debug\net6.0\MovieShopMVC.pdb
 C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\obj\Debug\net6.0\MovieShopMVC.genruntimeconfig.cache
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+C:\Users\User\Desktop\Antra\AntraFullStackAssignment\MovieShop(new)\MovieShopMVC\bin\Debug\net6.0\log.json

@@ -31,18 +31,20 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                              <a class="nav-link text-light btn dropdown-toggle" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false"
-                                 asp-area="" asp-controller="Genre" asp-action="Genres">
+                              <a class="nav-link text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                    Genres
                               </a>
-                              @*fix here => genres list*@
                               <div class="dropdown-menu">
+                                   @(await Component.InvokeAsync("Genres"))
+                              </div>
+                              @*fix here => genres list*@
+                              @*<div class="dropdown-menu">
                               @foreach (var genre in @model)
                               {
                                    <a class="dropdown-item" asp-controller="Genre" asp-action="List" asp-route-id="@genre.Id">@genre.Name</a>
 
                               }
-                              </div>
+                              </div>*@
                         </li>
                     </ul>
 

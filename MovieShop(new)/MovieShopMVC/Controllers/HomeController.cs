@@ -11,11 +11,13 @@ namespace MovieShopMVC.Controllers
      {
           // C# readonly
           private readonly IMovieService _movieService;
+          private readonly ILogger<HomeController> _logger;
 
           // need to tell MVC MovieService class needs to be "injected"
-          public HomeController(IMovieService movieService)      
+          public HomeController(IMovieService movieService, ILogger<HomeController> logger)      
           {
                _movieService = movieService;
+               _logger = logger;
           }
 
           // u1, u2, u3...100 => 
@@ -47,6 +49,11 @@ namespace MovieShopMVC.Controllers
                // CPU bound operation => Resizing an image, reading pixel image, calucalting Pi number 
                // calculating some algorthm, loan interest, 
                // Thread 1 is waiting for the I/O bound operation to finish
+
+               //int x = 0;
+               //int y = 10;
+               //int abc = y / x;
+
                var movieCards = await _movieService.GetHighestGrossingMovies();
 
                return View(movieCards);
