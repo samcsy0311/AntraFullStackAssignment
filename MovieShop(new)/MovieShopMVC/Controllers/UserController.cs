@@ -56,9 +56,11 @@ namespace MovieShopMVC.Controllers
           {
                var userId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
                user.Id = userId;
-               await _userService.EditUserProfile(user);
+               bool success = await _userService.EditUserProfile(user);
 
-               return RedirectToAction("Profile");
+               if (success)
+                    return RedirectToAction("Profile");
+               return View();
           }
 
      }

@@ -19,6 +19,19 @@ namespace Infrastructure.Services
           }
           public async Task<bool> EditUserProfile(UserDetailsModel user)
           {
+               var dbUser = _userRepository.GetUserByEmail(user.Email);
+               if (dbUser != null)
+               {
+                    throw new Exception("Email already exists and please check!");
+                    return false;
+               }
+
+               if (user.FirstName == null && user.LastName == null && user.DateOfBirth == null 
+                    && user.Email == null && user.PhoneNumber == null)
+               {
+                    return false;
+               }
+
                var _user = new User
                {
                     Id = user.Id,
@@ -29,11 +42,6 @@ namespace Infrastructure.Services
                     DateOfBirth = user.DateOfBirth
                };
                _user = await _userRepository.UpdateUser(_user);
-
-               if (_user == null)
-               {
-                    return false;
-               }
                return true;
           }
 
